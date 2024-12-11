@@ -17,11 +17,7 @@ package JDBCPrograms;
 					System.out.println(res.getInt(1)  + res.getString(2));
 					System.out.println(res.getString(2));
 				}
-					//close the coonection
+					//close the connection
 			Con.close();
 		}
-
-	}
-
-
-
+}
